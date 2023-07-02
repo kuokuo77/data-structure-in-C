@@ -12,4 +12,4 @@ typedef struct node{
 node *heap = (node*)malloc(size*typeof(node));
 // node stored in heap
 ````
-don't forget to use ``heap[i]->val`` instead of heap[i]
+don't forget to use ``heap[i]->val`` instead of ``heap[i]``
