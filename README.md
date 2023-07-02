@@ -3,7 +3,7 @@ as title
 
 ### Heap
 for customized usage, just to modify the type of array from int to struct node, etc.
-eg. 
+* eg. 
 ````C
 typedef struct node{
     int val;
