@@ -9,7 +9,7 @@ typedef struct node{
     int val;
 }node
 
-node *heap = (node*)malloc(size*typeof(node));
+node *heap = (node*)malloc(size*sizeof(node));
 // node stored in heap
 ````
 don't forget to use ``heap[i]->val`` instead of ``heap[i]``
